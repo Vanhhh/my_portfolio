@@ -21,14 +21,11 @@ export default class Introduction extends Component {
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
-                          <h1>
-                            Hi! <br />
-                            I'm Viet
-                          </h1>
+                          <h1>Hi! I'm Viet</h1>
                           <p>
                             <a
                               className="btn btn-primary btn-learn"
-                              href="https://docs.google.com/document/d/15coSa2rnZcdywihM-pWTvoGqE65JAkxQAh6JDBNrF2Q/edit?usp=sharing"
+                              href="https://drive.google.com/drive/folders/1ZDzFAFnE-cf6S83mlmba8Ay7ioQaDRHd?usp=sharing"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -49,14 +46,11 @@ export default class Introduction extends Component {
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <h1>
-                            I love building
-                            <br /> THINGS !!
-                          </h1>
+                          <h1>I am learning to build things!</h1>
                           <p>
                             <a
                               className="btn btn-primary btn-learn"
-                              href="https://github.com/dbarochiya"
+                              href="https://github.com/Vanhhh"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -69,7 +63,7 @@ export default class Introduction extends Component {
                   </div>
                 </div>
               </li>
-              <li className="introduction_img" style={styles}>
+              {/* <li className="introduction_img" style={styles}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
@@ -95,7 +89,7 @@ export default class Introduction extends Component {
                     </div>
                   </div>
                 </div>
-              </li>
+              </li> */}
             </ul>
           </div>
         </section>

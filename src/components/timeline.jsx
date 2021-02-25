@@ -23,24 +23,67 @@ export default class Timeline extends Component {
                     data-animate-effect="fadeInLeft"
                   >
                     <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-2">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          Working student UI/ UX Design{" "}
+                          <span> 01.2021-present</span>
+                        </h2>
+                        <p>
+                          Working as student at Gastromatic company. I work
+                          mostly with the company's components, debug and
+                          restyle them as asked. I programm with the company's
+                          UI-repository with Visual Studio Code, styling with
+                          CSS, SCSS and styled-components with ReactJS.
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          Internship at Juniper <span>2019-present</span>
+                          Internship Master study <span> 08/2020-02/2021</span>
                         </h2>
                         <p>
-                          I recently have joined the Juniper Networs as a
-                          Software Developer-Intern in the DevOps team. My major
-                          part of the work has been into the field of creating
-                          sustainable and flexible CI/CD (Continuous Integration
-                          & Continuous Development) pipelines which enables
-                          developers at Juniper to do rapid development. I am
-                          also exploring the role of container technology like
-                          Docker and container-orchrastation technologies like
-                          K8s, Swarm to create industry standard production
-                          environments.
+                          Internship at ikum(Institut für Kommunikation und
+                          Medien) at the University of Applied Sciences
+                          Darmstadt in the project "Euphorie und Aufbruch"
+                          <br></br> - Development of a "timeline visualization"
+                          for three dance archives of the Folkwang University of
+                          the Arts in cooperation with the German Dance Archive
+                          Cologne and the Pina Bausch Foundation.<br></br> -
+                          Indexing of the material, about 100 sources, with a
+                          view to the temporal aspects and the temporal
+                          indications drawn from them or connections between
+                          points in time and time intervals.
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-3">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          Master study <span> 10/2019-present</span>
+                        </h2>
+                        <p>
+                          Information Science (M.Sc.) Hochschule Darmstadt,
+                          University of Applied Sciences
                         </p>
                       </div>
                     </div>
@@ -55,16 +98,37 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          Undergraduation at DAIICT<span>2015-2019</span>
+                          Internship Bachelor study
+                          <span> 11/2018 –05/2019 </span>
                         </h2>
                         <p>
-                          I am pursuing my under-graduation studies with major
-                          in I.C.T.(Information & Communication Technology). I
-                          have taken courses like DSA, OOPs, Computer Networks,
-                          IOT, Web-Data Management over the years and have
-                          better understanding of these subjects.I have also
-                          been part of S.B.G.(Student Body Govenance) scince my
-                          first year of college.
+                          Internship at Ice Cream Cloud Software UG in Darmstadt
+                          in online marketing & sales<br></br>-. Synchronization
+                          of hotel data in different online travel agency with a
+                          channel manager
+                          <br></br> - Find and contact new customers for the
+                          Online-Travel-Agency find and contact
+                        </p>
+                      </div>
+                    </div>
+                  </article>
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInTop"
+                  >
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-4">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          Bachelor study<span> 10/2015 –10/2019 </span>
+                        </h2>
+                        <p>
+                          Informationswissenschaft (B.Sc.) Darmstadt University
+                          of Applied Sciences, (final grade: 2,0)
+                          Bachelor-Thesis: "Interactive visualizations for
+                          analytical comparisons" (grade: 1,6)
                         </p>
                       </div>
                     </div>
@@ -79,17 +143,10 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>
-                          Primary and Higher Education <span>2003-2015</span>
+                          International study and language college
+                          (Studienkolleg) <span>10/2013-07/2014</span>
                         </h2>
-                        <p>
-                          I have completed my higher secondary education with
-                          major subjects as Physics,Chemistry & Maths with 91
-                          merit. During my time at school, I have developed
-                          interest in solving complex problems of the
-                          fundamental physics which helped me to improve my
-                          understanding of any problem and also my mathematical
-                          skills to actually solve the problems.
-                        </p>
+                        <p>Johannes Gutenberg-Universität Mainz</p>
                       </div>
                     </div>
                   </article>

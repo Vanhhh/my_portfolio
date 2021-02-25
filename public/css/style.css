@@ -44,6 +44,8 @@ a:focus {
 }
 
 p {
+  font-family: "Quicksand", Arial, sans-serif;
+  color: #153762;
   margin-bottom: 1.5em;
 }
 

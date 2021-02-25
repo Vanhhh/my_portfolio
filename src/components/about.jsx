@@ -17,17 +17,13 @@ export default class About extends Component {
                       <span className="heading-meta">About Me</span>
                       <h2 className="colorlib-heading">Who Am I?</h2>
                       <p>
-                        I am a computer grad student from DAIICT-Gandhinagar
-                        with ICT as my major.I love exploring new technologies
-                        and often amazed by the progress we as a human species
-                        have mad so far in the recent years (apart from the
-                        headphone-jack part!!)
-                      </p>
-                      <p>
-                        I have started reflecting my ideas and thougths through
-                        the medium of words recently so spelling and grammer
-                        mistaks are very often.You can write me back if you spot
-                        any and don't want to live anymore :P{" "}
+                        My name is Viet Anh or you can call me Viet (it is
+                        shorter and easier to pronounce and remember :p){" "}
+                        <br></br>I am a master information science student from
+                        University of Apllied Science Darmstadt, Germany. I love
+                        make things pretty, photograph.<br></br> I write faster
+                        than i think, so please let me know if I wrote something
+                        wrong :D
                       </p>
                     </div>
                   </div>
@@ -43,9 +39,9 @@ export default class About extends Component {
                 className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                <span className="heading-meta">What I do?</span>
+                <span className="heading-meta">What can I do?</span>
                 <h2 className="colorlib-heading">
-                  Here are some of my expertise
+                  Here are some of my knowlegdes and skills
                 </h2>
               </div>
             </div>
@@ -53,27 +49,24 @@ export default class About extends Component {
               <div className="col-md-4 text-center animate-box">
                 <div className="services color-1">
                   <span className="icon">
-                    <i className="icon-bulb" />
+                    <i className="icon-bubble3" />
                   </span>
                   <div className="desc">
-                    <h3>Web Development </h3>
-                    <p>
-                      I have experience building websites and chrome extentions
-                      using JavaScript,React,HTML,CSS
-                    </p>
+                    <h3>Language </h3>
+                    <p>English, German, Vietnamese (mother-tongue language)</p>
                   </div>
                 </div>
               </div>
               <div className="col-md-4 text-center animate-box">
                 <div className="services color-3">
                   <span className="icon">
-                    <i className="icon-phone3" />
+                    <i className="icon-device-laptop" />
                   </span>
                   <div className="desc">
-                    <h3>Data Structures & Algorithms</h3>
+                    <h3>EDV</h3>
                     <p>
-                      As coming from the CS background, I have good grasp over
-                      fundamental concepts of DSA
+                      MS Office (sehr gute Kenntnisse in Word, PowerPoint, gute
+                      Kenntnisse in Excel), LaTeX
                     </p>
                   </div>
                 </div>
@@ -84,10 +77,10 @@ export default class About extends Component {
                     <i className="icon-data" />
                   </span>
                   <div className="desc">
-                    <h3>Dev Ops</h3>
+                    <h3>IT-Knowlegde</h3>
                     <p>
-                      I am pursuing my internship with DevOps team at Juniper
-                      and working with tools like Jenkins, Docker, K8s
+                      HTML, CSS, PHP, JavaScript, ReactJS, MySQL, D3, Python,
+                      XML GraphDB, Protégé, Lodview, Karma
                     </p>
                   </div>
                 </div>
